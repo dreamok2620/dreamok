@@ -1,0 +1,329 @@
+/* ######################## All element ######################## */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.white-text {
+  color: #fff !important;
+}
+
+body {
+  background-color: red;
+}
+/* ######################## head ######################## */
+
+.navbar-danger {
+  background-color: red !important;
+}
+
+.dropdown:hover {
+  color: red !important;
+}
+
+.linknav:hover {
+  text-decoration: underline;
+  color: red !important;
+  background-color: white;
+}
+
+.logo:hover {
+  background-color: red;
+  opacity: 0.9;
+}
+
+.dropdown:active {
+  color: #fff !important;
+  background-color: red;
+}
+.navbar-brand {
+  font-size: 2em;
+}
+
+.background {
+  background-image: url(../image/hommm2.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+}
+.background p {
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 10%;
+  color: #fff;
+  font-size: 3rem;
+}
+/*######################## end head ########################*/
+
+/* ########################## body ######################### */
+
+.img {
+  width: 40%;
+}
+.img:hover {
+  width: 45%;
+  transition: 0.5s;
+}
+
+.img-body-logo {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  background-color: red;
+  height: 300px;
+}
+
+.text-width p {
+  width: 80%;
+  margin: 0 auto;
+}
+.text-body-about {
+  padding: 30px;
+  text-align: center;
+  height: 300px;
+  color: #fff;
+  background-color: red;
+}
+
+.learn-more-button {
+  background-color: white !important;
+  color: red;
+}
+
+.learn-more-button:hover {
+  background-color: red !important;
+  color: #fff !important;
+  border: 1px solid white !important;
+}
+
+/* ########################## end body ######################### */
+
+/*######################## footer ############################ */
+hr {
+  border-top: 1px solid white;
+}
+
+.footer {
+  position: relative;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-ul {
+  margin: 0 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  height: 50px !important;
+}
+.footer-ul ul {
+  list-style: none;
+}
+
+.footer-container2 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 5% 0 5% 0;
+  width: 50%;
+}
+
+.mass {
+  opacity: 0.9;
+  padding: 0 5px;
+}
+
+.mass i:hover {
+  color: #fff !important;
+  background-color: red !important;
+  text-decoration: underline;
+}
+
+/*######################## end footer ############################ */
+
+/* ######################### about page ####################### */
+.about-page-body {
+  width: 100%;
+}
+
+.about-page-text {
+  width: 90%;
+  float: left;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 100px;
+  margin-top: -55%;
+  position: absolute;
+}
+
+.image-about-page img {
+  background-color: rgb(82, 120, 190) !important;
+  display: block;
+  opacity: 0.7;
+  width: 100%;
+  z-index: -1;
+}
+
+/* ################################ contanct ############################## */
+
+.contact-me-text {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-fluid {
+  padding: 30px 10px;
+}
+
+.container-fifty-procent-left {
+  width: 50%;
+  margin: 0 auto;
+  border: 2px solid #fff;
+}
+
+.btn-red {
+  background-color: #fff !important;
+  color: red !important;
+  padding: 10px 100px !important;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.btn-red:hover {
+  background-color: red !important;
+  color: #fff !important;
+  border: 2px solid #fff;
+}
+
+.col-lg-12,
+.col-md-6 {
+  margin: 0 auto !important;
+  text-align: center;
+}
+.margin-top {
+  padding: 20px 0 0 0;
+}
+/* ################################### media ############################## */
+
+@media only screen and (max-width: 991px) and (min-width: 700px) {
+  body {
+    background-color: red;
+  }
+  .media-img {
+    position: relative;
+    display: block;
+    margin-top: 0;
+  }
+  .media-text {
+    display: block;
+    margin-top: 900px;
+    position: absolute;
+    z-index: 1;
+  }
+  .media-img1 {
+    z-index: 2;
+    position: relative;
+    margin-top: 300px;
+  }
+
+  .container-fifty-procent-left {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .text-body-about {
+    text-align: center;
+    height: 330px;
+    color: #fff;
+    background-color: red;
+  }
+  .media-img {
+    position: relative;
+    display: block;
+    margin-top: 0;
+  }
+  .media-text {
+    display: block;
+    margin-top: 700px;
+    position: absolute;
+    z-index: 1;
+  }
+  .media-img1 {
+    z-index: 2;
+    position: relative;
+    margin-top: 330px;
+  }
+  .img-body-logo {
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    height: 200px;
+  }
+
+  hr {
+    margin-top: 50px;
+  }
+  .background p {
+    font-size: 2em !important;
+    width: 90% !important;
+  }
+  .footer-container2 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10% 0 10% 0;
+    width: 80%;
+  }
+
+  .image-about-page img {
+    height: 300px;
+    margin: 0 auto;
+  }
+  .about-page-text {
+    font-size: 10px;
+    margin-top: -70%;
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 100px;
+  }
+  .container-fifty-procent-left {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 700px) {
+  .background p {
+    font-size: 2.5em !important;
+    width: 90% !important;
+  }
+  .about-page-text {
+    font-size: 10px;
+  }
+  .container-fifty-procent-left {
+    width: 100%;
+  }
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+  height: 100px;
+}
+.aqua {
+  background-color: aqua;
+  height: 100px;
+}
+.gold {
+  background-color: gold;
+  height: 100px;
+}
+.brown {
+  background-color: brown;
+  height: 100px;
+}
